@@ -339,6 +339,11 @@ body {
         width: 340px;
     }
 
+    .sneaker__image {
+        width: calc(351px - 351px/8);
+        height: calc(254px - 254px/8);
+    }
+
     .collection {
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -363,7 +368,7 @@ body {
     }
 
     .sneaker-big__image {
-        width: 200px;
+        width: 300px;
     }
 
     .sneaker-big__product-info {
